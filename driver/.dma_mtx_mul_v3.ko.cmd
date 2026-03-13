@@ -1,1 +1,0 @@
-savedcmd_dma_mtx_mul_v3.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /usr/src/linux-headers-6.17.0-14-generic/scripts/module.lds -o dma_mtx_mul_v3.ko dma_mtx_mul_v3.o dma_mtx_mul_v3.mod.o .module-common.o
